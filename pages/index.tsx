@@ -1,12 +1,12 @@
 import { ReactElement } from "react"
 import Layout from "../components/layout"
-import Logo from "../components/Logo"
+import Logo from "../components/logo"
 import type { NextPageWithLayout } from "./_app"
 
 const IndexPage: NextPageWithLayout = () => {
     return (
       <>
-        <Logo color="" />
+        <Logo color={"white"} />
       </>
     )
 }
