@@ -1,7 +1,7 @@
 export default function EmailIcon() {
     return (
         <div className="flex justify-center">
-            <a href="mailto:contact@downright.dev" target="_blank">
+            <a href="mailto:contact@downright.dev" target="_blank" rel="noopener noreferrer">
                     <div className="justify-center flex">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
                             <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
